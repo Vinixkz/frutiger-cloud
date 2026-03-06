@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frutiger Cloud - Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bubbles"></div>
+  <main class="page">
+    <section class="card">
+      <h1>Welcome Back</h1>
+      <p>Sign in to access your Frutiger Cloud dashboard.</p>
+      <form id="loginForm">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" required />
+
+        <div class="actions">
+          <button type="submit">Login</button>
+          <a class="button-link" href="/index.html">Create Account</a>
+        </div>
+      </form>
+      <p id="status" class="status"></p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "frutiger-cloud",
+  "version": "1.0.0",
+  "description": "Frutiger Cloud full-stack app with Express, SQLite, JWT auth, and Google Drive uploads",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "googleapis": "^140.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "sqlite3": "^5.1.7"
+  }
+}

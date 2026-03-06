@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frutiger Cloud - Register</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bubbles"></div>
+  <main class="page">
+    <section class="card">
+      <h1>Frutiger Cloud</h1>
+      <p>Create your account and receive your personal Google Drive folder.</p>
+      <form id="registerForm">
+        <label for="username">Username</label>
+        <input id="username" name="username" placeholder="frutiger_user" required />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" placeholder="••••••••" required />
+
+        <div class="actions">
+          <button type="submit">Register</button>
+          <a class="button-link" href="/login.html">Go to Login</a>
+        </div>
+      </form>
+      <p id="status" class="status"></p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
