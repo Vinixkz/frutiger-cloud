@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frutiger Cloud - Files</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bubbles"></div>
+  <main class="page">
+    <section class="card">
+      <h1>Your Cloud Files</h1>
+      <p class="small">Manage files in your Google Drive user folder.</p>
+      <div class="actions">
+        <a class="button-link" href="/dashboard.html">Back to Dashboard</a>
+        <button id="refreshBtn">Refresh</button>
+        <button id="logoutBtn">Logout</button>
+      </div>
+      <ul id="fileList" class="file-list"></ul>
+      <p id="status" class="status"></p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
